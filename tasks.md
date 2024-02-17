@@ -2,3 +2,5 @@
 - Organizar CSS
 - Organizar IMports
 - Não esquecer da página de Erro 404
+- Menu responsiuvo Hamburguer para mobile
+- Fazer resposivo (Desktop, Celular, Tablet)
