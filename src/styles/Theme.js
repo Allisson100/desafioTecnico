@@ -9,6 +9,7 @@ const theme = {
 		main: "#ffffff",
 		secondary: "#000000",
 		tertiary: "#1b2653",
+		quarternary: "#FE6613",
 	}
 	
 };

@@ -1,47 +1,46 @@
 import styled from "styled-components";
 
 const CardWithButtonContainerStyled = styled.div`
-    width: 420px;
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    width: 420px;
 `;
 
 const CardContainerStyled = styled.div`
-    width: 100%;
-    height: 420px;
-    padding: 1rem;
+    align-items: center;
     border: 1px solid black;
     border-radius: 1rem;
-    padding: 3rem;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    height: 420px;
+    padding: 3rem;
     position: relative;
+    width: 100%;
 
     &::before {
-        content: "${props => props.$projectNumber}";
-        position: absolute;
-        display: flex;
         color: ${props => props.theme.fontColors.secundary};
+        content: "${props => props.$projectNumber}";
+        display: flex;
         font-size: 1.5rem;
         font-weight: bold;
         left: -25px;
+        position: absolute;
         top: 5px;
     }
 `;
 
 const ButtonStyled = styled.button`
-    width: ${props => props.$btWidth};
-    padding: 0.8rem;
     background-color: ${props => props.theme.bgColors.main};
-    text-align: center;
-    text-transform: ${props => props.$textTransform};
     border-radius: 0.5rem;
     color: ${props => props.theme.fontColors.main};
     font-size: 1.2rem;
+    padding: 0.8rem;
+    text-align: center;
+    text-transform: ${props => props.$textTransform};
+    width: ${props => props.$btWidth};
 `;
 
 export {
