@@ -35,7 +35,7 @@ const MenuMobile = () => {
 				<LinkMenu to="/">cotar imóvel</LinkMenu>
 				<LinkMenu to="/">planos</LinkMenu>
 				<LinkMenu to="/">entrar</LinkMenu>
-				<LinkMenu to="/">cadastra-se</LinkMenu>
+				<LinkMenu to="/">cadastre-se</LinkMenu>
 			</ListMobileContainerStyled>
 		</>
         

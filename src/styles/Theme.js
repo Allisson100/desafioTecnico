@@ -2,7 +2,7 @@ const theme = {
 	bgColors: {
 		main: "#FE6613",
 		secondary: "#1b2653",
-		tertiary: "#787878",
+		tertiary: "#ffffff",
 	},
 
 	fontColors: {

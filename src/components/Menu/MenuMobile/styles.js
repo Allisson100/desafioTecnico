@@ -13,6 +13,7 @@ const ListMobileContainerStyled = styled.ul`
     right: 0;
     top: 70px;
     width: 50%;
+    z-index: 10;
 
     @media screen and (min-width: 1025px) {
         display: none;
