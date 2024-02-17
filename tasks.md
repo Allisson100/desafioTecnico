@@ -1,0 +1,4 @@
+- Não esquecer de mudar o ícone e o título no html
+- Organizar CSS
+- Organizar IMports
+- Não esquecer da página de Erro 404
