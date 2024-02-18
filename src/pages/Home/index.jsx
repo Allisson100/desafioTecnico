@@ -1,5 +1,6 @@
 import Card from "../../components/Card";
 import DownloadChallenge from "../../components/Challenges/DownloadChallenge";
+import InputMaskChallenge from "../../components/Challenges/InputMaskChallenge";
 import Modal from "../../components/Challenges/Modal";
 import ShowNumberPhone from "../../components/Challenges/ShowNumberPhone";
 import Zoom from "../../components/Challenges/Zoom";
@@ -9,19 +10,11 @@ const Home = () => {
 	return (
 		<HomeContainerStyled>
 			<ShowNumberPhone />
+			<InputMaskChallenge />
 
-
-
-			<Card projectNumber="2">
-				<h1>Mascara</h1>
-			</Card>
 			<Card projectNumber="3">
 				<h1>regra3</h1>
 			</Card>
-
-			{/* <CardWithButton projectNumber="4" buttonText="Abrir imagem no modal">
-				<h1>modal</h1>
-			</CardWithButton> */}
 
 			<Modal />
 			<DownloadChallenge />
