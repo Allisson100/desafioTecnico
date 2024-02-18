@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const CardContainerStyled = styled.div`
-    width: 420px;
     height: 420px;
     min-height: 420px;
     position: relative;
+    width: 420px;
 `;
 
 const NumberStyled = styled.span`
@@ -19,16 +19,16 @@ const NumberStyled = styled.span`
 
 const CardStyled = styled.div`
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 420px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding: ${props => props.$noPadding ? "0rem" : "1rem"};
     border-radius: 1rem;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 420px;
+    overflow: hidden;
+    padding: ${props => props.$noPadding ? "0rem" : "1rem"};
+    position: relative;
+    width: 100%;
 `;
 
 export {

@@ -8,6 +8,7 @@
 - Arrumar o botao, pois esta dando overflow no hover
 - Refatorar componenetes que se repetem nos cards que tem botao
 - Deixar o maximmo semantico possivel
+- Arrumar primeiro desafio, pois imagnes estão demorando para carregar
 
 # Commits
 ### Criar nova branch
