@@ -6,19 +6,8 @@ const DownloadChallengeContainerStyled = styled.div`
     flex-direction: column;
     height: 500px;
     justify-content: space-between;
-    width: 420px;
-`;
-
-const CardContainerStyled = styled.div`
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    height: 420px;
-    padding: 3rem;
     position: relative;
-    width: 100%;
+    width: 420px;
 
     &::before {
         color: ${props => props.theme.fontColors.secundary};
@@ -30,6 +19,39 @@ const CardContainerStyled = styled.div`
         position: absolute;
         top: 5px;
     }
+`;
+
+const CardContainerStyled = styled.div`
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    height: 420px;
+    overflow: hidden;
+`;
+
+const CardImageStyled = styled.div`
+    align-items: flex-end;
+    background-image: url(${props => props.$imageHouse});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+    width: 100%;
+`;
+
+const CardTextStyled = styled.div`
+    width: 100%;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: ${props => props.theme.bgColors.main};
+    color: ${props => props.theme.fontColors.main};
+    border-radius: 0.5rem;
+    filter: opacity(0.9);
 `;
 
 const ButtonStyled = styled.button`
@@ -55,5 +77,7 @@ const ButtonStyled = styled.button`
 export {
 	DownloadChallengeContainerStyled,
 	CardContainerStyled,
+	CardImageStyled,
+	CardTextStyled,
 	ButtonStyled,
 };
