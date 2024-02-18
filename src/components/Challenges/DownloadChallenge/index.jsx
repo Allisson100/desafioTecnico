@@ -2,6 +2,9 @@ import { useRef } from "react";
 import { ButtonStyled, CardContainerStyled, DownloadChallengeContainerStyled } from "./styles";
 import html2canvas from "html2canvas";
 import { v4 as uuidv4 } from "uuid";
+import imageHouse from "../../../assets/house.jpg";
+import { CardImageStyled } from "./styles";
+import { CardTextStyled } from "./styles";
 
 const DownloadChallenge = () => {
 
@@ -18,9 +21,13 @@ const DownloadChallenge = () => {
 	};
 
 	return (
-		<DownloadChallengeContainerStyled ref={cardRef}>
-			<CardContainerStyled $projectNumber="5">
-				TESTE
+		<DownloadChallengeContainerStyled $projectNumber="5">
+			<CardContainerStyled>
+				<CardImageStyled  ref={cardRef} $imageHouse={imageHouse}>
+					<CardTextStyled>
+						imovel guide
+					</CardTextStyled>
+				</CardImageStyled>
 			</CardContainerStyled>
 			<ButtonStyled onClick={handleDownload}>
 				download
