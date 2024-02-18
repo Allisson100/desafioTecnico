@@ -1,5 +1,5 @@
 import Logo from "../Logo";
-import LinkMenu from "./LinkMenu";
+import LinkMenu from "../LinkMenu";
 import { 
 	AllListsContainerStyled, 
 	ButtonMenuStyled, 

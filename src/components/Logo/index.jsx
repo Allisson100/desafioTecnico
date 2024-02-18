@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import { ImageStyled } from "./styles";
+import { ImageStyled, LogoContainerStyled } from "./styles";
 
 const Logo = () => {
 
@@ -10,12 +10,12 @@ const Logo = () => {
 	};
 
 	return (
-		<h1 onClick={handleNavigate}>
+		<LogoContainerStyled onClick={handleNavigate}>
 			<ImageStyled 
 				src="https://imovelguide.com.br/images/logo-imovel-guide.png" 
 				alt="Logo da empresa Imóvel Guide" 
 			/>
-		</h1>
+		</LogoContainerStyled>
 	);
 };
 

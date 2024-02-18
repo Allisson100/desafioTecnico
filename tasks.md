@@ -9,6 +9,8 @@
 - Refatorar componenetes que se repetem nos cards que tem botao
 - Deixar o maximmo semantico possivel
 - Arrumar primeiro desafio, pois imagnes estão demorando para carregar
+- Arrumar o README
+- Refatorar titulo dos cards 2 e 3.
 
 # Commits
 ### Criar nova branch
