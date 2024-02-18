@@ -5,6 +5,7 @@
 - Menu responsiuvo Hamburguer para mobile
 - Fazer resposivo (Desktop, Celular, Tablet)
 - Nao esquecer de altera afont
+- Arrumar o botao, pois esta dando overflow no hover
 
 
 # Commits
