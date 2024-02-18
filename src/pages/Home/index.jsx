@@ -1,7 +1,6 @@
 import Card from "../../components/Card";
-// import CardWithButton from "../../components/Card/CardWithButton";
 import DownloadChallenge from "../../components/Challenges/DownloadChallenge";
-// import DownloadChallenge from "../../components/Challenges/DownloadChallenge";
+import Modal from "../../components/Challenges/Modal";
 import ShowNumberPhone from "../../components/Challenges/ShowNumberPhone";
 import Zoom from "../../components/Challenges/Zoom";
 import { HomeContainerStyled } from "./styles";
@@ -24,6 +23,7 @@ const Home = () => {
 				<h1>modal</h1>
 			</CardWithButton> */}
 
+			<Modal />
 			<DownloadChallenge />
 			<Zoom />
 
