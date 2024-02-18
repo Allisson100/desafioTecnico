@@ -40,7 +40,16 @@ const ButtonStyled = styled.button`
     padding: 0.8rem;
     text-align: center;
     text-transform: ${props => props.$textTransform};
+    transition: 0.2s;
     width: ${props => props.$btWidth};
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
 `;
 
 export {

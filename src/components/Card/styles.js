@@ -8,9 +8,11 @@ const CardContainerStyled = styled.div`
     flex-direction: column;
     height: 420px;
     min-height: 420px;
-    padding: 1rem;
+    overflow: hidden;
+    padding: ${props => props.$noPadding ? "0rem" : "1rem"};
     position: relative;
     width: 420px;
+    
 
     &::before {
         color: ${props => props.theme.fontColors.secundary};
