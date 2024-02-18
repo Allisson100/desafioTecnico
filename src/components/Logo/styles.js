@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const LogoContainerStyled = styled.h1`
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 `;
 
 const ImageStyled = styled.img`

@@ -1,7 +1,7 @@
-import { Outlet } from "react-router-dom";
 import Menu from "../Menu";
-import { DefaultPageContainer } from "./styles";
 import Footer from "../Footer";
+import { Outlet } from "react-router-dom";
+import { DefaultPageContainer } from "./styles";
 
 const DefaultPage = () => {
 	return (
