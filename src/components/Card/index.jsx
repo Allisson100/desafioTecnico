@@ -1,13 +1,17 @@
-import { CardContainerStyled } from "./styles";
+import { CardContainerStyled, CardStyled, NumberStyled } from "./styles";
 
 const Card = ({ children, projectNumber, noPadding }) => {
+	
 	return (
-		<CardContainerStyled
-			$projectNumber={projectNumber}
-			$noPadding={noPadding}
-		>   
-			{children}
+		<CardContainerStyled>
+			<NumberStyled>{projectNumber}</NumberStyled>
+			<CardStyled
+				$noPadding={noPadding}
+			> 
+				{children}
+			</CardStyled>
 		</CardContainerStyled>
+		
 	);
 };
 

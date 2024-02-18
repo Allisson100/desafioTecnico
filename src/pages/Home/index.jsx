@@ -1,5 +1,7 @@
 import Card from "../../components/Card";
-import CardWithButton from "../../components/Card/CardWithButton";
+// import CardWithButton from "../../components/Card/CardWithButton";
+import DownloadChallenge from "../../components/Challenges/DownloadChallenge";
+// import DownloadChallenge from "../../components/Challenges/DownloadChallenge";
 import ShowNumberPhone from "../../components/Challenges/ShowNumberPhone";
 import Zoom from "../../components/Challenges/Zoom";
 import { HomeContainerStyled } from "./styles";
@@ -18,23 +20,11 @@ const Home = () => {
 				<h1>regra3</h1>
 			</Card>
 
-			<CardWithButton projectNumber="4" buttonText="Abrir imagem no modal">
+			{/* <CardWithButton projectNumber="4" buttonText="Abrir imagem no modal">
 				<h1>modal</h1>
-			</CardWithButton>
+			</CardWithButton> */}
 
-			<CardWithButton 
-				projectNumber="5" 
-				buttonText="download" 
-				btWidth = "70%"
-				textTransform="capitalize"
-			>
-				<h1>modal</h1>
-			</CardWithButton>
-
-			{/* <Card projectNumber="6">
-				<h1>zoom</h1>
-			</Card> */}
-
+			<DownloadChallenge />
 			<Zoom />
 
 		</HomeContainerStyled>
