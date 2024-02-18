@@ -1,6 +1,7 @@
 import Card from "../../components/Card";
 import CardWithButton from "../../components/Card/CardWithButton";
 import ShowNumberPhone from "../../components/Challenges/ShowNumberPhone";
+import Zoom from "../../components/Challenges/Zoom";
 import { HomeContainerStyled } from "./styles";
 
 const Home = () => {
@@ -30,9 +31,11 @@ const Home = () => {
 				<h1>modal</h1>
 			</CardWithButton>
 
-			<Card projectNumber="6">
+			{/* <Card projectNumber="6">
 				<h1>zoom</h1>
-			</Card>
+			</Card> */}
+
+			<Zoom />
 
 		</HomeContainerStyled>
 	);
