@@ -1,38 +1,38 @@
 import styled from "styled-components";
 
 const OverlayStyled = styled.div`
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
     height: 100%;
-    position: fixed;
     left: 0;
+    overflow: hidden;
+    position: fixed;
     right: 0;
     top: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
     z-index: 5;
-    overflow: hidden;
 `;
 
 const ModalImageContainerStyled = styled.div`
-    width: 80%;
-    height: 70%;
-    top: 15%;
+    align-items: center;
     background-color: ${props => props.theme.bgColors.tertiary};
-    position: absolute;
-    z-index: 10;
     border-radius: 1rem;
     display: flex;
+    height: 70%;
     justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 15%;
+    width: 80%;
+    z-index: 10;
 
     &::before {
-        content: '';
-        width: 100%;
-        height: 3px;
         background-color: ${props => props.theme.bgColors.quarternary};
+        content: '';
+        height: 3px;
+        left: 0;
         position: absolute;
         top: 90px;
-        left: 0;
+        width: 100%;
 
         @media screen and (max-width: 600px) {
             top: 50px;
@@ -56,20 +56,20 @@ const ModalImageContainerStyled = styled.div`
 `;
 
 const IconContainerStyled = styled.div`
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 0.5rem;
     position: absolute;
     right: 0;
     top: 0;
 
     svg {
-        width: 50px;
-        height: 50px;
         color: red;
         cursor: pointer;
+        height: 50px;
         transition: 0.2s;
+        width: 50px;
 
         &:hover{
             transform: scale(1.05);
@@ -80,21 +80,21 @@ const IconContainerStyled = styled.div`
         }
 
         @media screen and (max-width: 600px) {
-            width: 40px;
             height: 40px;
+            width: 40px;
         }
     }
 `;
 
 const ImageContainerStyled = styled.div`
-    width: 80%;
-    height: 65%;
     background-image: url(${props => props.$image});
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     border-radius: 1rem;
+    height: 65%;
     margin-top: 5rem;
+    width: 80%;
 
     @media screen and (max-width: 600px) {
         margin-top: 3rem;

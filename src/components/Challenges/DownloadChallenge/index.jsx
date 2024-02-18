@@ -1,8 +1,10 @@
 import { useRef } from "react";
-import { ButtonStyled, CardContainerStyled, DownloadChallengeContainerStyled, CardImageStyled, CardTextStyled } from "./styles";
+import { ButtonStyled, CardImageStyled, CardTextStyled } from "./styles";
 import html2canvas from "html2canvas";
 import { v4 as uuidv4 } from "uuid";
 import imageHouse from "../../../assets/house.jpg";
+import CardButtonContainer from "../../Card/CardButtonContainer";
+import CardContainer from "../../Card/CardContainer";
 
 const DownloadChallenge = () => {
 
@@ -19,18 +21,18 @@ const DownloadChallenge = () => {
 	};
 
 	return (
-		<DownloadChallengeContainerStyled $projectNumber="5">
-			<CardContainerStyled>
+		<CardButtonContainer projectNumber="5">
+			<CardContainer>
 				<CardImageStyled  ref={cardRef} $imageHouse={imageHouse}>
 					<CardTextStyled>
 						imovel guide
 					</CardTextStyled>
 				</CardImageStyled>
-			</CardContainerStyled>
+			</CardContainer>
 			<ButtonStyled onClick={handleDownload}>
 				download
 			</ButtonStyled>
-		</DownloadChallengeContainerStyled>
+		</CardButtonContainer>
 	);
 };
 
