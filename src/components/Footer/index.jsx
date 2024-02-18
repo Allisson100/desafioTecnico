@@ -1,7 +1,7 @@
-import { FaRegCopyright } from "react-icons/fa6";
 import Logo from "../Logo";
-import { FooterContainerStyled, ListContainerStyled, PositionContainerStyled } from "./styles";
 import LinkMenu from "../LinkMenu";
+import { FaRegCopyright } from "react-icons/fa6";
+import { FooterContainerStyled, ListContainerStyled, PositionContainerStyled } from "./styles";
 
 const Footer = () => {
 	return (

@@ -30,11 +30,11 @@ const PositionContainerStyled = styled.nav`
 
     @media screen and (max-width: 700px) {
 
-    p {
-        font-size: 0.8rem;
-        text-align: center;
+        p {
+            font-size: 0.8rem;
+            text-align: center;
+        }
     }
-}
 `;
 
 const ListContainerStyled = styled.ul`

@@ -1,5 +1,6 @@
 import Logo from "../Logo";
 import LinkMenu from "../LinkMenu";
+import MenuMobile from "./MenuMobile";
 import { 
 	AllListsContainerStyled, 
 	ButtonMenuStyled, 
@@ -7,7 +8,6 @@ import {
 	MenuContainerStyled, 
 	NavContainerStyled 
 } from "./styles";
-import MenuMobile from "./MenuMobile";
 
 const Menu = () => {
 	return (

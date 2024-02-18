@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const CardContainerStyled = styled.div`
+const CardContainerStyled = styled.section`
     height: 420px;
     min-height: 420px;
     position: relative;
-    width: 420px;
+    width: 380px;
 `;
 
 const NumberStyled = styled.span`

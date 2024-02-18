@@ -1,6 +1,6 @@
 import Card from "../../Card";
-import { ZoomContainerStyled } from "./styles";
 import imageHouse from "../../../assets/house.jpg";
+import { ZoomContainerStyled } from "./styles";
 
 const Zoom = () => {
 	return (
