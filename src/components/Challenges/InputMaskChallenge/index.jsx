@@ -1,6 +1,6 @@
-import { useState } from "react";
 import Card from "../../Card";
-import { ButtonStyled, FomrContainerStyled, MaskedInputStyled, TextareaStyled, TitleStyled } from "./styles";
+import { useState } from "react";
+import { ButtonStyled, FormContainerStyled, MaskedInputStyled, TextareaStyled, TitleStyled } from "./styles";
 
 const InputMaskChallenge = () => {
 
@@ -39,7 +39,7 @@ const InputMaskChallenge = () => {
 
 	return (
 		<Card projectNumber="2">
-			<FomrContainerStyled>
+			<FormContainerStyled>
 				<TitleStyled>Mande uma mensagem:</TitleStyled>
 				<MaskedInputStyled
 					name="cpf" 
@@ -70,7 +70,7 @@ const InputMaskChallenge = () => {
 					placeholder="Digite o assunto"
 				></TextareaStyled>
 				<ButtonStyled type="submit" onClick={handleButtonAlert}>enviar mensagem</ButtonStyled>
-			</FomrContainerStyled>
+			</FormContainerStyled>
 		</Card>
 	);
 };

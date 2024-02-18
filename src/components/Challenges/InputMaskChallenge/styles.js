@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import MaskedInput from "react-text-mask";
 
-const FomrContainerStyled = styled.form`
+const FormContainerStyled = styled.form`
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -20,6 +20,7 @@ const MaskedInputStyled = styled(MaskedInput)`
     font-size: 1rem;
     line-height: 2rem;
     padding: 0.5rem;
+    width: 100%;
 `;
 
 const TextareaStyled = styled.textarea`
@@ -28,6 +29,7 @@ const TextareaStyled = styled.textarea`
     font-size: 1rem;
     padding: 0.5rem;
     resize: none;
+    width: 100%;
 `;
 
 const ButtonStyled = styled.button`
@@ -40,6 +42,7 @@ const ButtonStyled = styled.button`
     text-transform: capitalize;
     transition: 0.2s;
     width: 50%;
+    min-width: fit-content;
 
     &:hover{
         transform: scale(1.05);
@@ -51,7 +54,7 @@ const ButtonStyled = styled.button`
 `;
 
 export {
-	FomrContainerStyled,
+	FormContainerStyled,
 	TitleStyled,
 	MaskedInputStyled,
 	TextareaStyled,

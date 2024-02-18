@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
 import Card from "../../Card";
-import { ButtonStyled, CardPositionStyled, InputContainerStyled, InputStyled, ProportionContainerStyled, TitleStyled } from "./styles";
 import mathProportion from "../../../utils/mathProportion";
+import { useEffect, useState } from "react";
+import { ButtonStyled, CardPositionStyled, InputContainerStyled, InputStyled, ProportionContainerStyled, TitleStyled } from "./styles";
 
 const Proportion = () => {
 

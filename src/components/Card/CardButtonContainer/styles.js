@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-const CardButtonContainerStyled = styled.div`
+const CardButtonContainerStyled = styled.section`
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 500px;
     justify-content: space-between;
     position: relative;
-    width: 420px;
+    width: 380px;
 
     &::before {
         color: ${props => props.theme.fontColors.secundary};

@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { ImageBlurContainerStyled, ImageStyled, ImagesContainerStyled, InfosCardContainerStyled, InfosContainerStyled } from "./styles";
+import { 
+	ImageBlurContainerStyled, 
+	ImageStyled, 
+	ImagesContainerStyled, 
+	InfosCardContainerStyled, 
+	InfosContainerStyled 
+} from "./styles";
 
 const InfosCard = ({ userImage, username, numberPoints, phoneNumber }) => {
 

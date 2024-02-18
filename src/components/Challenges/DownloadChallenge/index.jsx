@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { ButtonStyled, CardImageStyled, CardTextStyled } from "./styles";
-import html2canvas from "html2canvas";
 import { v4 as uuidv4 } from "uuid";
+import html2canvas from "html2canvas";
 import imageHouse from "../../../assets/house.jpg";
 import CardButtonContainer from "../../Card/CardButtonContainer";
 import CardContainer from "../../Card/CardContainer";

@@ -1,9 +1,9 @@
-import { ButtonStyled, CardImageStyled } from "./styles";
 import imageHouse from "../../../assets/house.jpg";
 import ModalImage from "./ModalImage";
-import { useState } from "react";
 import CardButtonContainer from "../../Card/CardButtonContainer";
 import CardContainer from "../../Card/CardContainer";
+import { ButtonStyled, CardImageStyled } from "./styles";
+import { useState } from "react";
 
 const Modal = () => {
 
