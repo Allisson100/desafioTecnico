@@ -1,34 +1,5 @@
 import styled from "styled-components";
 
-const ModalContainerStyled = styled.div`
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    justify-content: space-between;
-    position: relative;
-    width: 420px;
-
-    &::before {
-        color: ${props => props.theme.fontColors.secundary};
-        content: "${props => props.$projectNumber}";
-        display: flex;
-        font-size: 1.5rem;
-        font-weight: bold;
-        left: -25px;
-        position: absolute;
-        top: 5px;
-    }
-`;
-
-const CardContainerStyled = styled.div`
-    width: 100%;
-    border: 2px solid black;
-    border-radius: 1rem;
-    height: 420px;
-    overflow: hidden;
-`;
-
 const CardImageStyled = styled.div`
     align-items: flex-end;
     background-image: url(${props => props.$imageHouse});
@@ -65,8 +36,6 @@ const ButtonStyled = styled.button`
 
 
 export {
-	ModalContainerStyled,
-	CardContainerStyled,
 	CardImageStyled,
 	ButtonStyled
 };

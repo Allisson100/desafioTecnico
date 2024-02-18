@@ -1,7 +1,9 @@
-import { ButtonStyled, CardContainerStyled, CardImageStyled, ModalContainerStyled } from "./styles";
+import { ButtonStyled, CardImageStyled } from "./styles";
 import imageHouse from "../../../assets/house.jpg";
 import ModalImage from "./ModalImage";
 import { useState } from "react";
+import CardButtonContainer from "../../Card/CardButtonContainer";
+import CardContainer from "../../Card/CardContainer";
 
 const Modal = () => {
 
@@ -14,14 +16,14 @@ const Modal = () => {
 	return (
 		<>
 			{showModal && <ModalImage image={imageHouse} handleShowModal={handleModal} />}
-			<ModalContainerStyled $projectNumber="4">
-				<CardContainerStyled>
+			<CardButtonContainer projectNumber="4">
+				<CardContainer>
 					<CardImageStyled $imageHouse={imageHouse} />
-				</CardContainerStyled>
+				</CardContainer>
 				<ButtonStyled onClick={handleModal}>
 				abrir imagem no modal
 				</ButtonStyled>
-			</ModalContainerStyled>
+			</CardButtonContainer>
 		</>
         
 	);

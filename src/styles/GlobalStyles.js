@@ -4,16 +4,16 @@ const GlobalStyles = createGlobalStyle`
     *{
         border: none;
         box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
         margin: 0;
         padding: 0;
-        font-family: "Roboto", sans-serif;
     }
 
     #root {
         background-color: ${props => props.theme.bgColors.tertiary};
         min-height: 100vh;
-        width: 100%;
         position: relative;
+        width: 100%;
     }
 
     button {

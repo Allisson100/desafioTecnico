@@ -10,16 +10,16 @@ const zoomAnimation = keyframes`
 `;
 
 const ZoomContainerStyled = styled.div`
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-    overflow: hidden;
+    animation: ${zoomAnimation} 10s infinite;
     background-image: url(${props => props.$imageHouse});
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    border-radius: 1rem;
+    height: 100%;
+    overflow: hidden;
     transform-origin: center;
-    animation: ${zoomAnimation} 10s infinite;
+    width: 100%;
 `;
 
 
