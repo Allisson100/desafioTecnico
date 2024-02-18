@@ -1,5 +1,5 @@
 import { IoMdMenu } from "react-icons/io";
-import LinkMenu from "../LinkMenu";
+import LinkMenu from "../../LinkMenu";
 import { useState } from "react";
 import { ListMobileContainerStyled } from "./styles";
 import { IoMdClose } from "react-icons/io";
