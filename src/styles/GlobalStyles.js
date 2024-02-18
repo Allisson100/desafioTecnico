@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${props => props.theme.bgColors.tertiary};
         min-height: 100vh;
         width: 100%;
+        position: relative;
     }
 
     button {

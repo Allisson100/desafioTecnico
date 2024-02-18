@@ -1,10 +1,8 @@
 import { useRef } from "react";
-import { ButtonStyled, CardContainerStyled, DownloadChallengeContainerStyled } from "./styles";
+import { ButtonStyled, CardContainerStyled, DownloadChallengeContainerStyled, CardImageStyled, CardTextStyled } from "./styles";
 import html2canvas from "html2canvas";
 import { v4 as uuidv4 } from "uuid";
 import imageHouse from "../../../assets/house.jpg";
-import { CardImageStyled } from "./styles";
-import { CardTextStyled } from "./styles";
 
 const DownloadChallenge = () => {
 
