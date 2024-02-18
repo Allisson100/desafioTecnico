@@ -6,7 +6,8 @@
 - Fazer resposivo (Desktop, Celular, Tablet)
 - Nao esquecer de altera afont
 - Arrumar o botao, pois esta dando overflow no hover
-
+- Refatorar componenetes que se repetem nos cards que tem botao
+- Deixar o maximmo semantico possivel
 
 # Commits
 ### Criar nova branch
